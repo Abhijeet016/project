@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 export default function Header() {
 
 console.log("Hello");
-
+console.log("Changed");
   return (
     <>
      <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
