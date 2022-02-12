@@ -4,6 +4,9 @@ import { Toolbar } from '@mui/material';
 import { AppBar } from '@mui/material';
 import Typography from '@mui/material/Typography';
 export default function Header() {
+
+console.log("Hello");
+
   return (
     <>
      <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
